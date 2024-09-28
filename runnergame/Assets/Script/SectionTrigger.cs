@@ -14,4 +14,5 @@ public class SectionTrigger : MonoBehaviour
             Instantiate(sectionChunk,new Vector3(-10, 0, 0),Quaternion.identity);
         }
     }
+
 }

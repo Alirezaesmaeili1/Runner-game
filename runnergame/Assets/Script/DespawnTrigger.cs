@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChunkMover : MonoBehaviour
+public class DespawnTrigger : MonoBehaviour
 {
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +13,13 @@ public class ChunkMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(10, 0, 0) * Time.deltaTime;
+        
     }
-
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Despawner"))
+        {
+            Destroy(other.transform.parent.gameObject);
+        }
+    }
 }
