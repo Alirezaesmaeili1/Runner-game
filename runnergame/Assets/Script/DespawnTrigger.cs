@@ -17,7 +17,7 @@ public class DespawnTrigger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Despawner"))
+        if (other.gameObject.CompareTag("ChunkTrigger"))
         {
             Destroy(other.transform.parent.gameObject);
         }
