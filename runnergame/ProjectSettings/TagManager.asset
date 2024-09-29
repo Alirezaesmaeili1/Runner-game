@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ChunkTrigger
   - Despawner
+  - ObstecleTrigger
   layers:
   - Default
   - TransparentFX
