@@ -127,6 +127,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2008426171740901413, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
+      propertyPath: sectionChunks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2008426171740901413, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
+      propertyPath: 'sectionChunks.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6083679169929014849, guid: 7dec3bc99f2c0d14ea6a5f6b7e4b8994, type: 3}
+    - target: {fileID: 2008426171740901413, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
+      propertyPath: 'sectionChunks.Array.data[1]'
+      value: 
+      objectReference: {fileID: 7107070868927840483, guid: 5fffa317aa9901a4695cfb925ccb88e4, type: 3}
+    - target: {fileID: 2008426171740901413, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
+      propertyPath: 'sectionChunks.Array.data[2]'
+      value: 
+      objectReference: {fileID: 7107070868927840483, guid: c4984eb0e0cce144e9b17f114617dca0, type: 3}
     - target: {fileID: 2440708877391265589, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49
@@ -174,10 +190,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3003697069265915449, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2086681414}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
 --- !u!1 &530840584 stripped
 GameObject:
@@ -426,7 +439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6955651577846980275, guid: 363451c40e0d20d4fa481e312baf6e26, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6955651577846980275, guid: 363451c40e0d20d4fa481e312baf6e26, type: 3}
       propertyPath: m_LocalPosition.z
@@ -472,31 +485,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 530840586}
   m_SourcePrefab: {fileID: 100100000, guid: 363451c40e0d20d4fa481e312baf6e26, type: 3}
---- !u!1 &2086681407 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3003697069265915449, guid: 9081983211a7dda40ac87cf673a3f8ba, type: 3}
-  m_PrefabInstance: {fileID: 238891367}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2086681414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086681407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76ea3b91fa5907d4e80525c606d6f4dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObstaclePrefab:
-  - {fileID: 0}
-  - {fileID: 0}
-  obstacles: []
-  sectionBorder:
-  - {x: 25, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: -25, y: 0, z: 0}
 --- !u!1001 &2129686516
 PrefabInstance:
   m_ObjectHideFlags: 0
